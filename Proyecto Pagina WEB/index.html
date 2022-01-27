@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="UTF-8">
+               <!-- conjunto de caracteres para español-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+               <!-- diseña responsivo-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+               <!-- compatibilidad con Edge-->
+    <meta name="Author" content="Yoel Millan">
+    <meta name="Description" content="Pagina web MARTONY">
+    <meta name="Keywords" content="Pagina web MARTONY"> 
+    <link rel="stylesheet" media="screen and (min-width: 950px)" href="widescreen.css">
+    <link rel="stylesheet" media="screen and (max-width: 500px)" href="smallscreen.css"> 
+    <link rel="stylesheet" href="index.css" type="text/css">
+    <link rel="shortcut icon" href="multimedia/MARTONY.jpg"  type="image/x-icon">
+    <title>M A R T O N Y</title>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("demo");
+        x.style.color = "red";
+      }
+    </script>
+  </head>
+  <body>
+    <!-- Encabezado y menú nav -->
+    <header>
+      <h1>M A R T O N Y</h1>
+      <nav id='menu'>
+        <ul>
+            <li><a href='#'>CATALOGO</a>
+              <ul>
+                <li><a href='#'>Mujer</a>
+                    <ul>
+                        <li><a href='#'>Pendientes</a></li>
+                        <li><a href='#'>Pulsera y collares</a></li>
+                    </ul>
+                </li>
+                <li><a href='#'>Hombre</a>
+                    <ul>
+                        <li><a href='#'><span>Accesorios</a></li>
+                        <li><a href='#'>COMPLEMENTOS</a></li>
+                    </ul>
+                </li>
+              </ul>
+            </li>
+             <li><a href='#section-faq'>FAQ</a></li>    
+             <li><a href='formulario/Formularios.html'>FORMULARIO</a></li>
+             <li><a href="#section-contacto">CONTACTOS</a></li>
+        </ul>
+      </nav>
+    </header>
+      <div id="pagina">
+        <!-- SECCIÓN HOME -->
+        <section id="section-home">
+          <div class="contenedor1Home">
+          </div>
+        </section>
+        <!-- SECCIÓN CATALOGO -->
+      <section id="section-catalogo">
+        <nav id = "javascript"> 
+        <div class="slide">
+          <div class="slide-inner">
+            <input class="slide-open" type="radio" id="slide-1" name="slide" aria-hidden="true" hidden="" checked="checked">
+            <div class="slide-item">
+              <img src="multimedia/FB_IMG_1548268168104.jpg">
+            </div>
+            <input class="slide-open" type="radio" id="slide-2" name="slide" aria-hidden="true" hidden="">
+            <div class="slide-item">
+              <img src="multimedia/1611240600638.jpg">
+            </div>
+            <input class="slide-open" type="radio" id="slide-3" name="slide" aria-hidden="true" hidden="">
+            <div class="slide-item">
+              <img src="multimedia/IMG_20191009_211416.jpg">
+            </div>
+            <label for="slide-3" class="slide-control prev control-1">‹</label>
+            <label for="slide-2" class="slide-control next control-1">›</label>
+            <label for="slide-1" class="slide-control prev control-2">‹</label>
+            <label for="slide-3" class="slide-control next control-2">›</label>
+            <label for="slide-2" class="slide-control prev control-3">‹</label>
+            <label for="slide-1" class="slide-control next control-3">›</label>
+            <ol class="slide-indicador">
+              <li>
+                <label for="slide-1" class="slide-circulo">•</label>
+              </li>
+              <li>
+                <label for="slide-2" class="slide-circulo">•</label>
+              </li>
+              <li>
+                <label for="slide-3" class="slide-circulo">•</label>
+              </li>
+            </ol>
+          </div>
+        </div>
+        <br>
+          <button type="button"
+          onclick="document.getElementById('fecha').innerHTML = Date()">
+          fecha</button>
+        <p id="fecha"></p>
+        <br>
+        <br>
+          <p id="demo">Clickea y prueba el JavaScript para cambiar el color a rojo</p>
+          <button onclick="myFunction()">Try it</button>
+      </nav>
+      </section>
+        <!-- SECCIÓN QUIENES SOMOS -->
+        <section id="section-quienessomos">
+          <div>
+            <h2 >Quiénes somos</h2>
+          <div class= "container-box-quienessomos">
+            <div class="box-quienessomos">
+              <p>Somos una tienda online de bisuteria y accesorios hechos a mano y a un precio economico.</p>
+              <br>
+              <p>Ademas , trabajamos rápido y a tu gusto con todo tipo de tallas y gamas.</p>
+              <br>
+              <p>En MARTONY estaremos encantados de recibirte y asesorarte. También , podremos ayudarte por telefono.</p>
+          </div>
+        </section>
+        <!-- SECCIÓN Preguntas Mas Frecuentes -->
+        <section id="section-faq">
+          <h2 style="text-align: center;">FAQ</h2>
+          <div class="contenedor-caja-faq">
+            <div class="caja-faq">
+              <h4>¿Cuánto son los gastos de envío?¿Cuál es el plazo de entrega?</h4>
+              <br>
+              <br>
+              <p>Los gastos de envio son gratis para commpras superires de 40€ y de 2,99€ a la peninsula y tardan entre 48 y 72h.</p>
+            </div>
+            <div class="caja-faq">
+              <h4>¿Y si me he confundido de talla?</h4>
+              <br>
+              <br>
+              <p>Siempre que dispongamos en tienda os enviaremos el producto con la talla correcta y debéis entregarle la errónea.</p>
+            </div>
+            <div class="caja-faq">
+              <h4>¿Y si al final quiero devolverlo?</h4>
+              <br>
+              <br>
+              <p>No hay problema, siempre y cuando el producto no este usado y no hayan pasado 10 días desde su recepción (Excepto productos a medida).
+              </p>
+            </div>
+            <div class="caja-faq">
+              <h4>No queda la talla o el artículo que tanto deseo.</h4>
+              <br>
+              <br>
+              <span>¡Escríbenos al 682100672 y haremos todo lo posible por concederte el deseo!</span>
+            </div>
+          </div>
+        </section>
+      </div>
+    <footer>
+      <div id="section-contacto">
+        <img src="multimedia/facebook.png" style="width:auto;height: 2em;">
+        <a href="https://www.facebook.com/marta.fernandezcanelada">Marta Fernnadez Canelada</a>
+        <br>
+        <img src="multimedia/whatapp.jpg" style="width:auto;height: 2em;">
+        <a href="https://wa.me/34682100672">682100672</a>
+        <br>
+        <br>        
+        <a href="mailto:martafernandezcanelada@hotmail.com"> martafernandezcanelada@hotmail.com </a>
+      </div>
+    </footer>
+  </body>
+</html>

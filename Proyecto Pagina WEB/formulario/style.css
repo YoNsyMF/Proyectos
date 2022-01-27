@@ -1,0 +1,53 @@
+*{padding: 0px;
+    margin: 0px;
+    font-family:"font-family: 'Roboto Slab', serif";
+  } 
+header{
+margin: 0px;
+text-align: center;
+color: red;
+height: max-content;
+}
+header h3{
+    font-size: 300%;
+    text-align: center;
+}
+
+div{
+    padding: 0px;
+    margin: 0px;
+}
+
+.datosPersonales{
+
+}
+.otrosDatos{
+}
+
+  form{
+     margin:10%;
+     padding: 10%;
+     clear: both;
+     text-align: center; 
+  }
+  fieldset{
+      margin:3%;
+      background-color: silver;
+      align-items: center;
+  }
+  .leyenda{
+      float: left;
+      margin: 2px;
+      color:rgb(0, 0, 0);
+      text-align:center;
+  }
+   form [type=nombre], form [type=correo]{
+      display: block; 
+      width: 15%; 
+      margin:auto;
+      margin-bottom: 10%; 
+      border:0px;
+      background-color:white ; 
+      color: silver;
+      padding: 10px;
+  }
